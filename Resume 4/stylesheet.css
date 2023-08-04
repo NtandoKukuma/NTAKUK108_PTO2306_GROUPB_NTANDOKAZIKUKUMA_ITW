@@ -1,0 +1,17 @@
+
+body { 
+     background-color: lightpink;
+    
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+nav{
+    background-color: bisque;
+    width:24%;
+}
+h2{
+    color: white;
+}
