@@ -1,0 +1,37 @@
+
+body { 
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+nav {
+    background-color: bisque;
+    width: 24%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+img{
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+  }
+  
