@@ -1,0 +1,21 @@
+
+#back-to-top {
+   position: fixed;
+   bottom: 8px;
+   right: 8px;
+}
+
+#navbar {
+    position: sticky;
+    top:0px;
+}
+
+#header {
+    position: relative;
+}
+
+#header-image {
+    position: relative;
+    top: 10px;
+}
+
