@@ -1,0 +1,248 @@
+
+body { 
+    background-color: lightpink;
+    margin: 5em;
+    padding: 1em;
+}
+
+ .name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+nav {
+    background-color: bisque;
+    width: 24%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: peru;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+  }
+
+.circular-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+}
+
+.circular-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.intro {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+      header {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: palevioletred;
+        padding: 0;
+        text-align: center;
+        z-index: 100; 
+      }
+      
+      .circular-image {
+        position: relative;
+        margin-top: 80px; 
+        left: 50%;
+        transform: translateX(-50%);
+        border: 5px solid #fff; 
+        overflow: hidden;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+      }
+      
+      .circular-image img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    
+      footer {
+        background-color: #f7f7f7;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      form {
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+  
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+  
+      select,
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+  
+      button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+  
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      /* Global styles */
+body {
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 2em;
+    padding: 1em;
+  }
+  
+  .name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  nav {
+    background-color: bisque;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  @media screen and (max-width: 767px) {
+    body {
+      background-color: lightblue; /* Change to the desired color */
+    }
+    .container {
+      margin: 1em;
+      padding: 0.5em;
+    }
+  
+    .name {
+      font-size: 2em;
+    }
+  
+    nav {
+      width: 100%;
+      margin: 10px;
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+      background-color: lightgreen; /* Change to the desired color */
+    }
+    .container {
+      margin: 2em;
+      padding: 1em;
+    }
+  
+    .name {
+      font-size: 2.2em;
+    }
+  
+    nav {
+      width: 40%;
+    }
+
+  }
+  
+  @media screen and (min-width: 1024px) {
+
+    body {
+      background-color: lightgray; /* Change to the desired color */
+    }
+    .container {
+      margin: 4em;
+      padding: 2em;
+    }
+  
+    .name {
+      font-size: 2.5em;
+    }
+  
+    nav {
+      width: 24%;
+    }
+  }
+ 
+  
+ 
+  
+
+  
